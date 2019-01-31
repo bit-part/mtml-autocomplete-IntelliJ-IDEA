@@ -14,17 +14,17 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtsiteslocalsite" value="mt:SitesLocalSite$END$ /&gt;" description="MTSites ブロックタグで定義している中で、一時的に再構築を行なっているサイ..." toReformat="false" toShortenFQNames="true">
+  <template name="mtsiteslocalsite" value="mt:SitesLocalSite$END$&gt;&lt;/mt:SitesLocalSite&gt;" description="MTSites ブロックタグで定義している中で、一時的に再構築を行なっているサイ..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtsitesiflocalsite" value="mt:SitesIfLocalSite$END$ /&gt;" description="MTSites ブロックタグの中で、現在のサイトが再構築を行なっているサイトと同..." toReformat="false" toShortenFQNames="true">
+  <template name="mtsitesiflocalsite" value="mt:SitesIfLocalSite$END$&gt;&lt;/mt:SitesIfLocalSite&gt;" description="MTSites ブロックタグの中で、現在のサイトが再構築を行なっているサイトと同..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtsites" value="mt:Sites$END$ /&gt;" description="サイトの一覧を表示するためのブロックタグです。出力には子サイトは含まれません。子..." toReformat="false" toShortenFQNames="true">
+  <template name="mtsites" value="mt:Sites$END$&gt;&lt;/mt:Sites&gt;" description="サイトの一覧を表示するためのブロックタグです。出力には子サイトは含まれません。子..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -79,7 +79,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtsitehaschildsite" value="mt:SiteHasChildSite$END$ /&gt;" description="親サイトのコンテキストの中で、そのサイトの配下に子サイトを持っているかを判別しま..." toReformat="false" toShortenFQNames="true">
+  <template name="mtsitehaschildsite" value="mt:SiteHasChildSite$END$&gt;&lt;/mt:SiteHasChildSite&gt;" description="親サイトのコンテキストの中で、そのサイトの配下に子サイトを持っているかを判別しま..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -154,7 +154,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtchildsites" value="mt:ChildSites$END$ /&gt;" description="子サイトの一覧を表示するためのブロックタグです。親サイトを出力する場合は MTS..." toReformat="false" toShortenFQNames="true">
+  <template name="mtchildsites" value="mt:ChildSites$END$&gt;&lt;/mt:ChildSites&gt;" description="子サイトの一覧を表示するためのブロックタグです。親サイトを出力する場合は MTS..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -264,12 +264,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcontentsheader" value="mt:ContentsHeader$END$ /&gt;" description="MTContens ブロック内で最初のコンテンツデータのときにだけ実行するブロッ..." toReformat="false" toShortenFQNames="true">
+  <template name="mtcontentsheader" value="mt:ContentsHeader$END$&gt;&lt;/mt:ContentsHeader&gt;" description="MTContens ブロック内で最初のコンテンツデータのときにだけ実行するブロッ..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcontentsfooter" value="mt:ContentsFooter$END$ /&gt;" description="MTContens ブロック内で最後のコンテンツデータのときにだけ実行するブロッ..." toReformat="false" toShortenFQNames="true">
+  <template name="mtcontentsfooter" value="mt:ContentsFooter$END$&gt;&lt;/mt:ContentsFooter&gt;" description="MTContens ブロック内で最後のコンテンツデータのときにだけ実行するブロッ..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -319,12 +319,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcontentprevious" value="mt:ContentPrevious$END$ /&gt;" description="現在のコンテクストのコンテンツデータの前のコンテンツデータを表示するためのブロッ..." toReformat="false" toShortenFQNames="true">
+  <template name="mtcontentprevious" value="mt:ContentPrevious$END$&gt;&lt;/mt:ContentPrevious&gt;" description="現在のコンテクストのコンテンツデータの前のコンテンツデータを表示するためのブロッ..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcontentnext" value="mt:ContentNext$END$ /&gt;" description="現在のコンテクストのコンテンツデータの次のコンテンツデータを表示するためのブロッ..." toReformat="false" toShortenFQNames="true">
+  <template name="mtcontentnext" value="mt:ContentNext$END$&gt;&lt;/mt:ContentNext&gt;" description="現在のコンテクストのコンテンツデータの次のコンテンツデータを表示するためのブロッ..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -334,27 +334,27 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcontentfields" value="mt:ContentFields$END$ /&gt;" description="コンテンツタイプに含まれる全てのコンテンツフィールドを取得するためのブロックタグ..." toReformat="false" toShortenFQNames="true">
+  <template name="mtcontentfields" value="mt:ContentFields$END$&gt;&lt;/mt:ContentFields&gt;" description="コンテンツタイプに含まれる全てのコンテンツフィールドを取得するためのブロックタグ..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcontentfield" value="mt:ContentField$END$ /&gt;" description="コンテンツデータの各フィールドの値を表示するためのブロックタグです。このタグだけ..." toReformat="false" toShortenFQNames="true">
+  <template name="mtcontentfield" value="mt:ContentField$END$&gt;&lt;/mt:ContentField&gt;" description="コンテンツデータの各フィールドの値を表示するためのブロックタグです。このタグだけ..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcontentcalendar" value="mt:ContentCalendar$END$ /&gt;" description="一ケ月分のカレンダーを表示するためのブロックタグです。month モディファイア..." toReformat="false" toShortenFQNames="true">
+  <template name="mtcontentcalendar" value="mt:ContentCalendar$END$&gt;&lt;/mt:ContentCalendar&gt;" description="一ケ月分のカレンダーを表示するためのブロックタグです。month モディファイア..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcontentauthoruserpicasset" value="mt:ContentAuthorUserpicAsset$END$ /&gt;" description="コンテンツデータを作成したユーザーのプロフィール画像に関する情報を取得するための..." toReformat="false" toShortenFQNames="true">
+  <template name="mtcontentauthoruserpicasset" value="mt:ContentAuthorUserpicAsset$END$&gt;&lt;/mt:ContentAuthorUserpicAsset&gt;" description="コンテンツデータを作成したユーザーのプロフィール画像に関する情報を取得するための..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcategorysets" value="mt:CategorySets$END$ /&gt;" description="ブロック内にMTCategories、MTSubCategories、MTTop..." toReformat="false" toShortenFQNames="true">
+  <template name="mtcategorysets" value="mt:CategorySets$END$&gt;&lt;/mt:CategorySets&gt;" description="ブロック内にMTCategories、MTSubCategories、MTTop..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -364,17 +364,17 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcalendarifnocontents" value="mt:CalendarIfNoContents$END$ /&gt;" description="MTContentCalendarブロック内で、現在のコンテクストで処理されてい..." toReformat="false" toShortenFQNames="true">
+  <template name="mtcalendarifnocontents" value="mt:CalendarIfNoContents$END$&gt;&lt;/mt:CalendarIfNoContents&gt;" description="MTContentCalendarブロック内で、現在のコンテクストで処理されてい..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcalendarifcontents" value="mt:CalendarIfContents$END$ /&gt;" description="MTContentCalendarブロック内で、現在のコンテクストで処理されてい..." toReformat="false" toShortenFQNames="true">
+  <template name="mtcalendarifcontents" value="mt:CalendarIfContents$END$&gt;&lt;/mt:CalendarIfContents&gt;" description="MTContentCalendarブロック内で、現在のコンテクストで処理されてい..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name=" mtauthorhascontent" value=" MTAuthorHasContent$END$ /&gt;" description="ユーザーのコンテキスト内で条件分岐をおこなうブロックタグです。 ユーザーが公開 ..." toReformat="false" toShortenFQNames="true">
+  <template name=" mtauthorhascontent" value=" MTAuthorHasContent$END$&gt;&lt;/ MTAuthorHasContent&gt;" description="ユーザーのコンテキスト内で条件分岐をおこなうブロックタグです。 ユーザーが公開 ..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -399,7 +399,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcontents" value="mt:Contents$END$ /&gt;" description="コンテンツデータを一覧するためのブロックタグです。" toReformat="false" toShortenFQNames="true">
+  <template name="mtcontents" value="mt:Contents content_type=&quot;$END$&quot;&gt;&lt;/mt:Contents&gt;" description="コンテンツデータを一覧するためのブロックタグです。" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -419,7 +419,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcomments" value="mt:Comments$END$ /&gt;" description="コメント一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcomments" value="mt:Comments$END$&gt;&lt;/mt:Comments&gt;" description="コメント一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -454,17 +454,17 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mthasnoparentfolder" value="mt:HasNoParentFolder$END$ /&gt;" description="現在のフォルダに親フォルダが存在しないときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mthasnoparentfolder" value="mt:HasNoParentFolder$END$&gt;&lt;/mt:HasNoParentFolder&gt;" description="現在のフォルダに親フォルダが存在しないときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mthasnosubfolders" value="mt:HasNoSubFolders$END$ /&gt;" description="現在のフォルダに子フォルダが存在しないときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mthasnosubfolders" value="mt:HasNoSubFolders$END$&gt;&lt;/mt:HasNoSubFolders&gt;" description="現在のフォルダに子フォルダが存在しないときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcustomfieldasset" value="mt:CustomFieldAsset$END$ /&gt;" description="カスタムフィールドの値をアイテムとして処理するためのタグです。このブロックタグの中では、アイテム関連の MT タグを利用することができます。カスタムフィールドの種類がアイテム型（画像、オーディオ、ビデオ、ファイル）の場合のみ有効です。" toReformat="false" toShortenFQNames="true">
+  <template name="mtcustomfieldasset" value="mt:CustomFieldAsset$END$&gt;&lt;/mt:CustomFieldAsset&gt;" description="カスタムフィールドの値をアイテムとして処理するためのタグです。このブロックタグの中では、アイテム関連の MT タグを利用することができます。カスタムフィールドの種類がアイテム型（画像、オーディオ、ビデオ、ファイル）の場合のみ有効です。" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -479,7 +479,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifexternalusermanagement" value="mt:IfExternalUserManagement$END$ /&gt;" description="ExternalUserManagement が有効なときだけ実行する条件タグです。" toReformat="false" toShortenFQNames="true">
+  <template name="mtifexternalusermanagement" value="mt:IfExternalUserManagement$END$&gt;&lt;/mt:IfExternalUserManagement&gt;" description="ExternalUserManagement が有効なときだけ実行する条件タグです。" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -514,7 +514,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtwebsitehasblog" value="mt:WebsiteHasBlog$END$ /&gt;" description="ウェブサイト配下にブログがあるか判別する" toReformat="false" toShortenFQNames="true">
+  <template name="mtwebsitehasblog" value="mt:WebsiteHasBlog$END$&gt;&lt;/mt:WebsiteHasBlog&gt;" description="ウェブサイト配下にブログがあるか判別する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -529,7 +529,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentryprimarycategory" value="mt:EntryPrimaryCategory$END$ /&gt;" description="メインカテゴリの情報を取得する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentryprimarycategory" value="mt:EntryPrimaryCategory$END$&gt;&lt;/mt:EntryPrimaryCategory&gt;" description="メインカテゴリの情報を取得する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -559,7 +559,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtwebsitecustomfields" value="mt:WebsiteCustomFields$END$ /&gt;" description="「ウェブサイト」システムオブジェクトで作成したカスタムフィールドの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtwebsitecustomfields" value="mt:WebsiteCustomFields$END$&gt;&lt;/mt:WebsiteCustomFields&gt;" description="「ウェブサイト」システムオブジェクトで作成したカスタムフィールドの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -579,7 +579,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtvideocustomfields" value="mt:VideoCustomFields$END$ /&gt;" description="「ビデオ」システムオブジェクトで作成したカスタムフィールドの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtvideocustomfields" value="mt:VideoCustomFields$END$&gt;&lt;/mt:VideoCustomFields&gt;" description="「ビデオ」システムオブジェクトで作成したカスタムフィールドの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -599,7 +599,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mttemplatecustomfields" value="mt:TemplateCustomFields$END$ /&gt;" description="「テンプレート」システムオブジェクトで作成したカスタムフィールドの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mttemplatecustomfields" value="mt:TemplateCustomFields$END$&gt;&lt;/mt:TemplateCustomFields&gt;" description="「テンプレート」システムオブジェクトで作成したカスタムフィールドの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -619,7 +619,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtimagecustomfields" value="mt:ImageCustomFields$END$ /&gt;" description="「画像」システムオブジェクトで作成したカスタムフィールドの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtimagecustomfields" value="mt:ImageCustomFields$END$&gt;&lt;/mt:ImageCustomFields&gt;" description="「画像」システムオブジェクトで作成したカスタムフィールドの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -639,7 +639,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtfilecustomfields" value="mt:FileCustomFields$END$ /&gt;" description="「アイテム」システムオブジェクトに追加したカスタムフィールドの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtfilecustomfields" value="mt:FileCustomFields$END$&gt;&lt;/mt:FileCustomFields&gt;" description="「アイテム」システムオブジェクトに追加したカスタムフィールドの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -659,7 +659,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcommentcustomfields" value="mt:CommentCustomFields$END$ /&gt;" description="「コメント」システムオブジェクトに追加したカスタムフィールドを一覧で表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcommentcustomfields" value="mt:CommentCustomFields$END$&gt;&lt;/mt:CommentCustomFields&gt;" description="「コメント」システムオブジェクトに追加したカスタムフィールドを一覧で表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -679,7 +679,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtblogcustomfields" value="mt:BlogCustomFields$END$ /&gt;" description="「ブログ」システムオブジェクトで作成したカスタムフィールドの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtblogcustomfields" value="mt:BlogCustomFields$END$&gt;&lt;/mt:BlogCustomFields&gt;" description="「ブログ」システムオブジェクトで作成したカスタムフィールドの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -699,12 +699,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtaudiocustomfields" value="mt:AudioCustomFields$END$ /&gt;" description="「オーディオ」システムオブジェクトで作成したカスタムフィールドの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtaudiocustomfields" value="mt:AudioCustomFields$END$&gt;&lt;/mt:AudioCustomFields&gt;" description="「オーディオ」システムオブジェクトで作成したカスタムフィールドの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcustomfieldisrequired" value="mt:CustomFieldIsRequired$END$ /&gt;" description="カスタムフィールドへの入力が必須か判別する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcustomfieldisrequired" value="mt:CustomFieldIsRequired$END$&gt;&lt;/mt:CustomFieldIsRequired&gt;" description="カスタムフィールドへの入力が必須か判別する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -739,7 +739,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtblogparentwebsite" value="mt:BlogParentWebsite$END$ /&gt;" description="所属するウェブサイトの情報を取得する" toReformat="false" toShortenFQNames="true">
+  <template name="mtblogparentwebsite" value="mt:BlogParentWebsite$END$&gt;&lt;/mt:BlogParentWebsite&gt;" description="所属するウェブサイトの情報を取得する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -764,7 +764,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtwebsiteifcommentsopen" value="mt:WebsiteIfCommentsOpen$END$ /&gt;" description="ウェブサイトで匿名ユーザーからのコメントを許可しているときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtwebsiteifcommentsopen" value="mt:WebsiteIfCommentsOpen$END$&gt;&lt;/mt:WebsiteIfCommentsOpen&gt;" description="ウェブサイトで匿名ユーザーからのコメントを許可しているときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -784,12 +784,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtwebsiteifcclicense" value="mt:WebsiteIfCCLicense$END$ /&gt;" description="ウェブサイトのクリエイティブ・コモンズの設定時に、囲まれた部分を実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtwebsiteifcclicense" value="mt:WebsiteIfCCLicense$END$&gt;&lt;/mt:WebsiteIfCCLicense&gt;" description="ウェブサイトのクリエイティブ・コモンズの設定時に、囲まれた部分を実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifwebsite" value="mt:IfWebsite$END$ /&gt;" description="ウェブサイトのコンテキストにあるときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifwebsite" value="mt:IfWebsite$END$&gt;&lt;/mt:IfWebsite&gt;" description="ウェブサイトのコンテキストにあるときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -829,7 +829,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtwebsites" value="mt:Websites$END$ /&gt;" description="ウェブサイト一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtwebsites" value="mt:Websites$END$&gt;&lt;/mt:Websites&gt;" description="ウェブサイト一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -844,17 +844,17 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtotherprofiles" value="mt:OtherProfiles$END$ /&gt;" description="Movable Type に登録した利用サービスの一覧を出力する" toReformat="false" toShortenFQNames="true">
+  <template name="mtotherprofiles" value="mt:OtherProfiles$END$&gt;&lt;/mt:OtherProfiles&gt;" description="Movable Type に登録した利用サービスの一覧を出力する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtactionstreams" value="mt:ActionStreams$END$ /&gt;" description="Movable Type に登録した利用サービスや、ブログ内から集められたアクションの一覧を出力する" toReformat="false" toShortenFQNames="true">
+  <template name="mtactionstreams" value="mt:ActionStreams$END$&gt;&lt;/mt:ActionStreams&gt;" description="Movable Type に登録した利用サービスや、ブログ内から集められたアクションの一覧を出力する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtprofileservices" value="mt:ProfileServices$END$ /&gt;" description="登録できるサービス一覧を出力する" toReformat="false" toShortenFQNames="true">
+  <template name="mtprofileservices" value="mt:ProfileServices$END$&gt;&lt;/mt:ProfileServices&gt;" description="登録できるサービス一覧を出力する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -864,7 +864,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifblog" value="mt:IfBlog$END$ /&gt;" description="ブログのコンテキストにあるときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifblog" value="mt:IfBlog$END$&gt;&lt;/mt:IfBlog&gt;" description="ブログのコンテキストにあるときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -879,37 +879,37 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtauthoriffollowing" value="mt:AuthorIfFollowing$END$ /&gt;" description="サインイン中のユーザーが、表示中のプロフィールページのユーザーを注目しているか判別する" toReformat="false" toShortenFQNames="true">
+  <template name="mtauthoriffollowing" value="mt:AuthorIfFollowing$END$&gt;&lt;/mt:AuthorIfFollowing&gt;" description="サインイン中のユーザーが、表示中のプロフィールページのユーザーを注目しているか判別する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtauthoriffollowed" value="mt:AuthorIfFollowed$END$ /&gt;" description="サインイン中のユーザーが、表示中のプロフィールページのユーザーに注目されているか判別する" toReformat="false" toShortenFQNames="true">
+  <template name="mtauthoriffollowed" value="mt:AuthorIfFollowed$END$&gt;&lt;/mt:AuthorIfFollowed&gt;" description="サインイン中のユーザーが、表示中のプロフィールページのユーザーに注目されているか判別する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtauthorfollowers" value="mt:AuthorFollowers$END$ /&gt;" description="対象のユーザーを注目しているユーザーの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtauthorfollowers" value="mt:AuthorFollowers$END$&gt;&lt;/mt:AuthorFollowers&gt;" description="対象のユーザーを注目しているユーザーの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtauthorfollowing" value="mt:AuthorFollowing$END$ /&gt;" description="対象のユーザーが注目しているユーザーの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtauthorfollowing" value="mt:AuthorFollowing$END$&gt;&lt;/mt:AuthorFollowing&gt;" description="対象のユーザーが注目しているユーザーの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtauthorfollowingcomments" value="mt:AuthorFollowingComments$END$ /&gt;" description="注目しているユーザーのアクションのうち、コメント投稿の一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtauthorfollowingcomments" value="mt:AuthorFollowingComments$END$&gt;&lt;/mt:AuthorFollowingComments&gt;" description="注目しているユーザーのアクションのうち、コメント投稿の一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtauthorfollowingfavorites" value="mt:AuthorFollowingFavorites$END$ /&gt;" description="注目しているユーザーのアクションのうち、お気に入り登録を一覧で表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtauthorfollowingfavorites" value="mt:AuthorFollowingFavorites$END$&gt;&lt;/mt:AuthorFollowingFavorites&gt;" description="注目しているユーザーのアクションのうち、お気に入り登録を一覧で表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtauthorfollowingentries" value="mt:AuthorFollowingEntries$END$ /&gt;" description="注目しているユーザーのアクションのうち、記事（トピック）の投稿を一覧表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtauthorfollowingentries" value="mt:AuthorFollowingEntries$END$&gt;&lt;/mt:AuthorFollowingEntries&gt;" description="注目しているユーザーのアクションのうち、記事（トピック）の投稿を一覧表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -944,52 +944,52 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtauthorcomments" value="mt:AuthorComments$END$ /&gt;" description="特定のユーザーが投稿したコメントの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtauthorcomments" value="mt:AuthorComments$END$&gt;&lt;/mt:AuthorComments&gt;" description="特定のユーザーが投稿したコメントの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtauthorcommentresponses" value="mt:AuthorCommentResponses$END$ /&gt;" description="コメントへの返信の一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtauthorcommentresponses" value="mt:AuthorCommentResponses$END$&gt;&lt;/mt:AuthorCommentResponses&gt;" description="コメントへの返信の一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtactionsheader" value="mt:ActionsHeader$END$ /&gt;" description="MTActions タグの中で、最初のアクションのときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtactionsheader" value="mt:ActionsHeader$END$&gt;&lt;/mt:ActionsHeader&gt;" description="MTActions タグの中で、最初のアクションのときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtactionsfooter" value="mt:ActionsFooter$END$ /&gt;" description="MTActions タグの中で、最後のアクションのときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtactionsfooter" value="mt:ActionsFooter$END$&gt;&lt;/mt:ActionsFooter&gt;" description="MTActions タグの中で、最後のアクションのときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtactionsfavorite" value="mt:ActionsFavorite$END$ /&gt;" description="コミュニティ内でのアクションのうち、ユーザーのお気に入り登録アクションの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtactionsfavorite" value="mt:ActionsFavorite$END$&gt;&lt;/mt:ActionsFavorite&gt;" description="コミュニティ内でのアクションのうち、ユーザーのお気に入り登録アクションの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtactionsentry" value="mt:ActionsEntry$END$ /&gt;" description="コミュニティ内でのアクションのうち、ユーザーのブログ記事・トピックの投稿の一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtactionsentry" value="mt:ActionsEntry$END$&gt;&lt;/mt:ActionsEntry&gt;" description="コミュニティ内でのアクションのうち、ユーザーのブログ記事・トピックの投稿の一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtactionscomment" value="mt:ActionsComment$END$ /&gt;" description="コミュニティ内でのアクションのうち、ユーザーのコメント一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtactionscomment" value="mt:ActionsComment$END$&gt;&lt;/mt:ActionsComment&gt;" description="コミュニティ内でのアクションのうち、ユーザーのコメント一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtactions" value="mt:Actions$END$ /&gt;" description="コミュニティ内でのユーザーのアクション一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtactions" value="mt:Actions$END$&gt;&lt;/mt:Actions&gt;" description="コミュニティ内でのユーザーのアクション一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifanonymousrecommendallowed" value="mt:IfAnonymousRecommendAllowed$END$ /&gt;" description="匿名ユーザーによる投票（お気に入り投稿）を許可しているか判別する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifanonymousrecommendallowed" value="mt:IfAnonymousRecommendAllowed$END$&gt;&lt;/mt:IfAnonymousRecommendAllowed&gt;" description="匿名ユーザーによる投票（お気に入り投稿）を許可しているか判別する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifloggedin" value="mt:IfLoggedIn$END$ /&gt;" description="ユーザーのサインイン状態で表示内容を分ける" toReformat="false" toShortenFQNames="true">
+  <template name="mtifloggedin" value="mt:IfLoggedIn$END$&gt;&lt;/mt:IfLoggedIn&gt;" description="ユーザーのサインイン状態で表示内容を分ける" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1029,22 +1029,22 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifcurrentpage" value="mt:IfCurrentPage$END$ /&gt;" description="MTPagerBlock タグを利用して作成したページ分割の中で、何番目のページを表示中かを判別する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifcurrentpage" value="mt:IfCurrentPage$END$&gt;&lt;/mt:IfCurrentPage&gt;" description="MTPagerBlock タグを利用して作成したページ分割の中で、何番目のページを表示中かを判別する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifpreviousresults" value="mt:IfPreviousResults$END$ /&gt;" description="検索結果が複数ページにわたっている状態で、現在のページよりひとつ前のページが存在する場合に実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifpreviousresults" value="mt:IfPreviousResults$END$&gt;&lt;/mt:IfPreviousResults&gt;" description="検索結果が複数ページにわたっている状態で、現在のページよりひとつ前のページが存在する場合に実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifmoreresults" value="mt:IfMoreResults$END$ /&gt;" description="検索結果が 1 ページに表示する件数より多い場合に実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifmoreresults" value="mt:IfMoreResults$END$&gt;&lt;/mt:IfMoreResults&gt;" description="検索結果が 1 ページに表示する件数より多い場合に実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtpagerblock" value="mt:PagerBlock$END$ /&gt;" description="検索結果ページの総ページ数だけ繰り返し処理をおこなう" toReformat="false" toShortenFQNames="true">
+  <template name="mtpagerblock" value="mt:PagerBlock$END$&gt;&lt;/mt:PagerBlock&gt;" description="検索結果ページの総ページ数だけ繰り返し処理をおこなう" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1059,37 +1059,37 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifimagesupport" value="mt:IfImageSupport$END$ /&gt;" description="画像処理ライブラリがインストールされている場合に実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifimagesupport" value="mt:IfImageSupport$END$&gt;&lt;/mt:IfImageSupport&gt;" description="画像処理ライブラリがインストールされている場合に実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtelseif" value="mt:ElseIf$END$ /&gt;" description="条件に合致しなかったときにさらに条件式を追加する" toReformat="false" toShortenFQNames="true">
+  <template name="mtelseif" value="mt:ElseIf$END$&gt;&lt;/mt:ElseIf&gt;" description="条件に合致しなかったときにさらに条件式を追加する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtauthorcustomfields" value="mt:AuthorCustomFields$END$ /&gt;" description="ユーザープロフィールに関するカスタムフィールドの情報を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtauthorcustomfields" value="mt:AuthorCustomFields$END$&gt;&lt;/mt:AuthorCustomFields&gt;" description="ユーザープロフィールに関するカスタムフィールドの情報を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtfoldercustomfields" value="mt:FolderCustomFields$END$ /&gt;" description="フォルダに関するカスタムフィールドの情報を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtfoldercustomfields" value="mt:FolderCustomFields$END$&gt;&lt;/mt:FolderCustomFields&gt;" description="フォルダに関するカスタムフィールドの情報を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcategorycustomfields" value="mt:CategoryCustomFields$END$ /&gt;" description="カテゴリに関するカスタムフィールドの情報を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcategorycustomfields" value="mt:CategoryCustomFields$END$&gt;&lt;/mt:CategoryCustomFields&gt;" description="カテゴリに関するカスタムフィールドの情報を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtpagecustomfields" value="mt:PageCustomFields$END$ /&gt;" description="ウェブページに関するカスタムフィールドの情報を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtpagecustomfields" value="mt:PageCustomFields$END$&gt;&lt;/mt:PageCustomFields&gt;" description="ウェブページに関するカスタムフィールドの情報を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentrycustomfields" value="mt:EntryCustomFields$END$ /&gt;" description="記事に関するカスタムフィールドの情報を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentrycustomfields" value="mt:EntryCustomFields$END$&gt;&lt;/mt:EntryCustomFields&gt;" description="記事に関するカスタムフィールドの情報を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1194,7 +1194,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtsethashvar" value="mt:SetHashVar$END$ /&gt;" description="キーと値のペアをまとめてハッシュ変数に設定する" toReformat="false" toShortenFQNames="true">
+  <template name="mtsethashvar" value="mt:SetHashVar$END$&gt;&lt;/mt:SetHashVar&gt;" description="キーと値のペアをまとめてハッシュ変数に設定する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1219,12 +1219,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtincludeblock" value="mt:IncludeBlock$END$ /&gt;" description="テンプレートモジュールを読み込む" toReformat="false" toShortenFQNames="true">
+  <template name="mtincludeblock" value="mt:IncludeBlock$END$&gt;&lt;/mt:IncludeBlock&gt;" description="テンプレートモジュールを読み込む" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtfor" value="mt:For$END$ /&gt;" description="コンテンツを繰り返し処理する" toReformat="false" toShortenFQNames="true">
+  <template name="mtfor" value="mt:For var=&quot;$END$&quot; from=&quot;&quot; to=&quot;&quot;&gt;&lt;/mt:For&gt;" description="コンテンツを繰り返し処理する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1239,7 +1239,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentryauthoruserpicasset" value="mt:EntryAuthorUserpicAsset$END$ /&gt;" description="記事投稿者のプロフィール画像の情報を取得する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentryauthoruserpicasset" value="mt:EntryAuthorUserpicAsset$END$&gt;&lt;/mt:EntryAuthorUserpicAsset&gt;" description="記事投稿者のプロフィール画像の情報を取得する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1249,7 +1249,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcommenteruserpicasset" value="mt:CommenterUserpicAsset$END$ /&gt;" description="コメントしたユーザーのプロフィール画像を一覧する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcommenteruserpicasset" value="mt:CommenterUserpicAsset$END$&gt;&lt;/mt:CommenterUserpicAsset&gt;" description="コメントしたユーザーのプロフィール画像を一覧する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1289,17 +1289,17 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtauthoruserpicasset" value="mt:AuthorUserpicAsset$END$ /&gt;" description="登録ユーザーのプロフィール画像の情報を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtauthoruserpicasset" value="mt:AuthorUserpicAsset$END$&gt;&lt;/mt:AuthorUserpicAsset&gt;" description="登録ユーザーのプロフィール画像の情報を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtauthorhaspage" value="mt:AuthorHasPage$END$ /&gt;" description="公開されたウェブページをユーザーが持っているか判別する" toReformat="false" toShortenFQNames="true">
+  <template name="mtauthorhaspage" value="mt:AuthorHasPage$END$&gt;&lt;/mt:AuthorHasPage&gt;" description="公開されたウェブページをユーザーが持っているか判別する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtauthorhasentry" value="mt:AuthorHasEntry$END$ /&gt;" description="公開された記事をユーザーが持っているか判別する" toReformat="false" toShortenFQNames="true">
+  <template name="mtauthorhasentry" value="mt:AuthorHasEntry$END$&gt;&lt;/mt:AuthorHasEntry&gt;" description="公開された記事をユーザーが持っているか判別する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1329,7 +1329,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtunless" value="mt:Unless$END$ /&gt;" description="条件に合致しないときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtunless" value="mt:Unless$END$&gt;&lt;/mt:Unless&gt;" description="条件に合致しないときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1344,22 +1344,22 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mttoplevelparent" value="mt:TopLevelParent$END$ /&gt;" description="最上位の親カテゴリを表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mttoplevelparent" value="mt:TopLevelParent$END$&gt;&lt;/mt:TopLevelParent&gt;" description="最上位の親カテゴリを表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mttoplevelfolders" value="mt:TopLevelFolders$END$ /&gt;" description="最上位のフォルダ一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mttoplevelfolders" value="mt:TopLevelFolders$END$&gt;&lt;/mt:TopLevelFolders&gt;" description="最上位のフォルダ一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mttoplevelfolder" value="mt:TopLevelFolder$END$ /&gt;" description="最上位フォルダを表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mttoplevelfolder" value="mt:TopLevelFolder$END$&gt;&lt;/mt:TopLevelFolder&gt;" description="最上位フォルダを表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mttoplevelcategories" value="mt:TopLevelCategories$END$ /&gt;" description="最上位のカテゴリ一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mttoplevelcategories" value="mt:TopLevelCategories$END$&gt;&lt;/mt:TopLevelCategories&gt;" description="最上位のカテゴリ一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1374,7 +1374,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mttextile" value="mt:Textile$END$ /&gt;" description="囲んだ内容を Textile フォーマットで処理する" toReformat="false" toShortenFQNames="true">
+  <template name="mttextile" value="mt:Textile$END$&gt;&lt;/mt:Textile&gt;" description="囲んだ内容を Textile フォーマットで処理する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1389,7 +1389,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mttags" value="mt:Tags$END$ /&gt;" description="記事・ウェブページに設定されたタグを一覧で表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mttags" value="mt:Tags$END$&gt;&lt;/mt:Tags&gt;" description="記事・ウェブページに設定されたタグを一覧で表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1424,7 +1424,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtsubfolders" value="mt:SubFolders$END$ /&gt;" description="フォルダを階層化して一覧表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtsubfolders" value="mt:SubFolders$END$&gt;&lt;/mt:SubFolders&gt;" description="フォルダを階層化して一覧表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1444,17 +1444,17 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtsubcategories" value="mt:SubCategories$END$ /&gt;" description="カテゴリを階層化して一覧表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtsubcategories" value="mt:SubCategories$END$&gt;&lt;/mt:SubCategories&gt;" description="カテゴリを階層化して一覧表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtsubcatislast" value="mt:SubCatIsLast$END$ /&gt;" description="カテゴリ一覧で末尾のときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtsubcatislast" value="mt:SubCatIsLast$END$&gt;&lt;/mt:SubCatIsLast&gt;" description="カテゴリ一覧で末尾のときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtsubcatisfirst" value="mt:SubCatIsFirst$END$ /&gt;" description="カテゴリ一覧で先頭のときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtsubcatisfirst" value="mt:SubCatIsFirst$END$&gt;&lt;/mt:SubCatIsFirst&gt;" description="カテゴリ一覧で先頭のときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1479,7 +1479,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtsetvartemplate" value="mt:SetVarTemplate$END$ /&gt;" description="囲んだ内容を値にした変数を設定する" toReformat="false" toShortenFQNames="true">
+  <template name="mtsetvartemplate" value="mt:SetVarTemplate$END$&gt;&lt;/mt:SetVarTemplate&gt;" description="囲んだ内容を値にした変数を設定する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1494,7 +1494,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtsection" value="mt:Section$END$ /&gt;" description="挟み込んだブロックの内容をキャッシュする" toReformat="false" toShortenFQNames="true">
+  <template name="mtsection" value="mt:Section$END$&gt;&lt;/mt:Section&gt;" description="挟み込んだブロックの内容をキャッシュする" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1514,7 +1514,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtsearchresults" value="mt:SearchResults$END$ /&gt;" description="検索結果を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtsearchresults" value="mt:SearchResults$END$&gt;&lt;/mt:SearchResults&gt;" description="検索結果を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1554,22 +1554,22 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtpingssent" value="mt:PingsSent$END$ /&gt;" description="送信したトラックバック URL を一覧で表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtpingssent" value="mt:PingsSent$END$&gt;&lt;/mt:PingsSent&gt;" description="送信したトラックバック URL を一覧で表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtpingsheader" value="mt:PingsHeader$END$ /&gt;" description="トラックバックの一覧で最初のときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtpingsheader" value="mt:PingsHeader$END$&gt;&lt;/mt:PingsHeader&gt;" description="トラックバックの一覧で最初のときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtpingsfooter" value="mt:PingsFooter$END$ /&gt;" description="トラックバックの一覧で最後のときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtpingsfooter" value="mt:PingsFooter$END$&gt;&lt;/mt:PingsFooter&gt;" description="トラックバックの一覧で最後のときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtpings" value="mt:Pings$END$ /&gt;" description="トラックバック一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtpings" value="mt:Pings$END$&gt;&lt;/mt:Pings&gt;" description="トラックバック一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1629,7 +1629,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtpingentry" value="mt:PingEntry$END$ /&gt;" description="トラックバックを受信したブログ記事の内容を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtpingentry" value="mt:PingEntry$END$&gt;&lt;/mt:PingEntry&gt;" description="トラックバックを受信したブログ記事の内容を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1644,37 +1644,37 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtparentfolders" value="mt:ParentFolders$END$ /&gt;" description="最上位のフォルダから現在のフォルダまでを繰り返して表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtparentfolders" value="mt:ParentFolders$END$&gt;&lt;/mt:ParentFolders&gt;" description="最上位のフォルダから現在のフォルダまでを繰り返して表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtparentfolder" value="mt:ParentFolder$END$ /&gt;" description="親フォルダを表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtparentfolder" value="mt:ParentFolder$END$&gt;&lt;/mt:ParentFolder&gt;" description="親フォルダを表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtparentcategory" value="mt:ParentCategory$END$ /&gt;" description="親カテゴリを表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtparentcategory" value="mt:ParentCategory$END$&gt;&lt;/mt:ParentCategory&gt;" description="親カテゴリを表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtparentcategories" value="mt:ParentCategories$END$ /&gt;" description="最上位のカテゴリから現在のカテゴリまで繰り返し表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtparentcategories" value="mt:ParentCategories$END$&gt;&lt;/mt:ParentCategories&gt;" description="最上位のカテゴリから現在のカテゴリまで繰り返し表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtpagesheader" value="mt:PagesHeader$END$ /&gt;" description="MTPages タグの中で、最初のウェブページのときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtpagesheader" value="mt:PagesHeader$END$&gt;&lt;/mt:PagesHeader&gt;" description="MTPages タグの中で、最初のウェブページのときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtpagesfooter" value="mt:PagesFooter$END$ /&gt;" description="MTPages タグの中で、最後のページのときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtpagesfooter" value="mt:PagesFooter$END$&gt;&lt;/mt:PagesFooter&gt;" description="MTPages タグの中で、最後のページのときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtpages" value="mt:Pages$END$ /&gt;" description="ウェブページの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtpages" value="mt:Pages$END$&gt;&lt;/mt:Pages&gt;" description="ウェブページの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1684,12 +1684,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtpagetags" value="mt:PageTags$END$ /&gt;" description="ウェブページに設定されたタグの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtpagetags" value="mt:PageTags$END$&gt;&lt;/mt:PageTags&gt;" description="ウェブページに設定されたタグの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtpageprevious" value="mt:PagePrevious$END$ /&gt;" description="ひとつ前のウェブページの内容を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtpageprevious" value="mt:PagePrevious$END$&gt;&lt;/mt:PagePrevious&gt;" description="ひとつ前のウェブページの内容を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1699,7 +1699,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtpagenext" value="mt:PageNext$END$ /&gt;" description="次のウェブページの内容を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtpagenext" value="mt:PageNext$END$&gt;&lt;/mt:PageNext&gt;" description="次のウェブページの内容を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1719,7 +1719,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtpageiftagged" value="mt:PageIfTagged$END$ /&gt;" description="ウェブページにタグがあるときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtpageiftagged" value="mt:PageIfTagged$END$&gt;&lt;/mt:PageIfTagged&gt;" description="ウェブページにタグがあるときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1729,7 +1729,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtpagefolder" value="mt:PageFolder$END$ /&gt;" description="ウェブページが属するフォルダに関する情報を取得する" toReformat="false" toShortenFQNames="true">
+  <template name="mtpagefolder" value="mt:PageFolder$END$&gt;&lt;/mt:PageFolder&gt;" description="ウェブページが属するフォルダに関する情報を取得する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1774,37 +1774,37 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtpageassets" value="mt:PageAssets$END$ /&gt;" description="特定のウェブページで利用しているアイテムの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtpageassets" value="mt:PageAssets$END$&gt;&lt;/mt:PageAssets&gt;" description="特定のウェブページで利用しているアイテムの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtotherblog" value="mt:OtherBlog$END$ /&gt;" description="特定のブログコンテキストを作成する" toReformat="false" toShortenFQNames="true">
+  <template name="mtotherblog" value="mt:OtherBlog$END$&gt;&lt;/mt:OtherBlog&gt;" description="特定のブログコンテキストを作成する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtnosearchresults" value="mt:NoSearchResults$END$ /&gt;" description="該当する検索結果がないときに表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtnosearchresults" value="mt:NoSearchResults$END$&gt;&lt;/mt:NoSearchResults&gt;" description="該当する検索結果がないときに表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtnosearch" value="mt:NoSearch$END$ /&gt;" description="検索が実行されなかったときに表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtnosearch" value="mt:NoSearch$END$&gt;&lt;/mt:NoSearch&gt;" description="検索が実行されなかったときに表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtmultibloglocalblog" value="mt:MultiBlogLocalBlog$END$ /&gt;" description="MTMultiBlog タグで定義している中で、一時的にローカルブログの内容を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtmultibloglocalblog" value="mt:MultiBlogLocalBlog$END$&gt;&lt;/mt:MultiBlogLocalBlog&gt;" description="MTMultiBlog タグで定義している中で、一時的にローカルブログの内容を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtmultiblogiflocalblog" value="mt:MultiBlogIfLocalBlog$END$ /&gt;" description="MTMultiBlog タグで定義している中で、ローカルブログの内容の場合にのみ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtmultiblogiflocalblog" value="mt:MultiBlogIfLocalBlog$END$&gt;&lt;/mt:MultiBlogIfLocalBlog&gt;" description="MTMultiBlog タグで定義している中で、ローカルブログの内容の場合にのみ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtmultiblog" value="mt:MultiBlog$END$ /&gt;" description="Movable Type で管理している複数のブログの情報を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtmultiblog" value="mt:MultiBlog$END$&gt;&lt;/mt:MultiBlog&gt;" description="Movable Type で管理している複数のブログの情報を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1814,12 +1814,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtmarkdownoptions" value="mt:MarkdownOptions$END$ /&gt;" description="Markdown フォーマットを指定したフォーマットに変換する" toReformat="false" toShortenFQNames="true">
+  <template name="mtmarkdownoptions" value="mt:MarkdownOptions$END$&gt;&lt;/mt:MarkdownOptions&gt;" description="Markdown フォーマットを指定したフォーマットに変換する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtloop" value="mt:Loop$END$ /&gt;" description="指定した変数に含まれるハッシュの数だけ、タグで囲まれた内容を繰り返し処理する" toReformat="false" toShortenFQNames="true">
+  <template name="mtloop" value="mt:Loop name=&quot;$END$&quot;&gt;&lt;/mt:Loop&gt;" description="指定した変数に含まれるハッシュの数だけ、タグで囲まれた内容を繰り返し処理する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1834,7 +1834,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtindexlist" value="mt:IndexList$END$ /&gt;" description="インデックステンプレートで出力したページを一覧する" toReformat="false" toShortenFQNames="true">
+  <template name="mtindexlist" value="mt:IndexList$END$&gt;&lt;/mt:IndexList&gt;" description="インデックステンプレートで出力したページを一覧する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1849,7 +1849,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtinclude" value="mt:Include$END$ /&gt;" description="テンプレートモジュールや外部ファイルなどを読み込む" toReformat="false" toShortenFQNames="true">
+  <template name="mtinclude" value="mt:Include module=&quot;$END$&quot; /&gt;" description="テンプレートモジュールや外部ファイルなどを読み込む" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -1869,207 +1869,207 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtignore" value="mt:Ignore$END$ /&gt;" description="囲んだ内容を無視する" toReformat="false" toShortenFQNames="true">
+  <template name="mtignore" value="mt:Ignore$END$&gt;&lt;/mt:Ignore&gt;" description="囲んだ内容を無視する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtiftypekeytoken" value="mt:IfTypeKeyToken$END$ /&gt;" description="TypeKey 認証用トークンが登録されているときに表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtiftypekeytoken" value="mt:IfTypeKeyToken$END$&gt;&lt;/mt:IfTypeKeyToken&gt;" description="TypeKey 認証用トークンが登録されているときに表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtiftagsearch" value="mt:IfTagSearch$END$ /&gt;" description="タグを対象とした検索の場合に実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtiftagsearch" value="mt:IfTagSearch$END$&gt;&lt;/mt:IfTagSearch&gt;" description="タグを対象とした検索の場合に実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifstraightsearch" value="mt:IfStraightSearch$END$ /&gt;" description="記事やウェブページの検索の場合に実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifstraightsearch" value="mt:IfStraightSearch$END$&gt;&lt;/mt:IfStraightSearch&gt;" description="記事やウェブページの検索の場合に実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifstatic" value="mt:IfStatic$END$ /&gt;" description="スタティックパブリッシングのときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifstatic" value="mt:IfStatic$END$&gt;&lt;/mt:IfStatic&gt;" description="スタティックパブリッシングのときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifrequirecommentemails" value="mt:IfRequireCommentEmails$END$ /&gt;" description="コメント投稿に電子メールが必要なときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifrequirecommentemails" value="mt:IfRequireCommentEmails$END$&gt;&lt;/mt:IfRequireCommentEmails&gt;" description="コメント投稿に電子メールが必要なときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifregistrationrequired" value="mt:IfRegistrationRequired$END$ /&gt;" description="コメント認証が要求されているときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifregistrationrequired" value="mt:IfRegistrationRequired$END$&gt;&lt;/mt:IfRegistrationRequired&gt;" description="コメント認証が要求されているときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifregistrationnotrequired" value="mt:IfRegistrationNotRequired$END$ /&gt;" description="認証なしユーザーまたは匿名ユーザーからのコメントを許可している場合のみに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifregistrationnotrequired" value="mt:IfRegistrationNotRequired$END$&gt;&lt;/mt:IfRegistrationNotRequired&gt;" description="認証なしユーザーまたは匿名ユーザーからのコメントを許可している場合のみに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifregistrationallowed" value="mt:IfRegistrationAllowed$END$ /&gt;" description="ブログ上から Movable Type へのユーザー登録を許可している場合に実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifregistrationallowed" value="mt:IfRegistrationAllowed$END$&gt;&lt;/mt:IfRegistrationAllowed&gt;" description="ブログ上から Movable Type へのユーザー登録を許可している場合に実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifpingsmoderated" value="mt:IfPingsModerated$END$ /&gt;" description="トラックバックが即時に公開されていない場合に実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifpingsmoderated" value="mt:IfPingsModerated$END$&gt;&lt;/mt:IfPingsModerated&gt;" description="トラックバックが即時に公開されていない場合に実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifpingsallowed" value="mt:IfPingsAllowed$END$ /&gt;" description="ブログの設定でトラックバックを受け付ける設定をしているときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifpingsallowed" value="mt:IfPingsAllowed$END$&gt;&lt;/mt:IfPingsAllowed&gt;" description="ブログの設定でトラックバックを受け付ける設定をしているときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifpingsactive" value="mt:IfPingsActive$END$ /&gt;" description="トラックバックが許可されているか存在するときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifpingsactive" value="mt:IfPingsActive$END$&gt;&lt;/mt:IfPingsActive&gt;" description="トラックバックが許可されているか存在するときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifpingsaccepted" value="mt:IfPingsAccepted$END$ /&gt;" description="ブログと記事の両方の設定でトラックバックを受け付ける設定になっている場合に表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifpingsaccepted" value="mt:IfPingsAccepted$END$&gt;&lt;/mt:IfPingsAccepted&gt;" description="ブログと記事の両方の設定でトラックバックを受け付ける設定になっている場合に表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifnonzero" value="mt:IfNonZero$END$ /&gt;" description="指定したテンプレートタグもしくは変数の値が 0（ゼロ）でないときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifnonzero" value="mt:IfNonZero$END$&gt;&lt;/mt:IfNonZero&gt;" description="指定したテンプレートタグもしくは変数の値が 0（ゼロ）でないときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifnonempty" value="mt:IfNonEmpty$END$ /&gt;" description="指定したテンプレートタグもしくは変数の値が空でないときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifnonempty" value="mt:IfNonEmpty$END$&gt;&lt;/mt:IfNonEmpty&gt;" description="指定したテンプレートタグもしくは変数の値が空でないときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifneedemail" value="mt:IfNeedEmail$END$ /&gt;" description="コメント投稿に電子メールが必要なときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifneedemail" value="mt:IfNeedEmail$END$&gt;&lt;/mt:IfNeedEmail&gt;" description="コメント投稿に電子メールが必要なときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifmaxresultscutoff" value="mt:IfMaxResultsCutoff$END$ /&gt;" description="検索結果が複数ページにわたる場合、最後の検索結果が環境変数 MaxResults の値を超えたときにだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifmaxresultscutoff" value="mt:IfMaxResultsCutoff$END$&gt;&lt;/mt:IfMaxResultsCutoff&gt;" description="検索結果が複数ページにわたる場合、最後の検索結果が環境変数 MaxResults の値を超えたときにだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifisdescendant" value="mt:IfIsDescendant$END$ /&gt;" description="指定したカテゴリが、現在のカテゴリの親（祖先）カテゴリにあたる場合に実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifisdescendant" value="mt:IfIsDescendant$END$&gt;&lt;/mt:IfIsDescendant&gt;" description="指定したカテゴリが、現在のカテゴリの親（祖先）カテゴリにあたる場合に実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifisancestor" value="mt:IfIsAncestor$END$ /&gt;" description="指定したカテゴリが、現在のカテゴリの子（子孫）カテゴリにあたる場合に実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifisancestor" value="mt:IfIsAncestor$END$&gt;&lt;/mt:IfIsAncestor&gt;" description="指定したカテゴリが、現在のカテゴリの子（子孫）カテゴリにあたる場合に実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtiffolder" value="mt:IfFolder$END$ /&gt;" description="コンテキスト内に指定されたフォルダが含まれるときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtiffolder" value="mt:IfFolder$END$&gt;&lt;/mt:IfFolder&gt;" description="コンテキスト内に指定されたフォルダが含まれるときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifdynamic" value="mt:IfDynamic$END$ /&gt;" description="ダイナミックパブリッシングのときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifdynamic" value="mt:IfDynamic$END$&gt;&lt;/mt:IfDynamic&gt;" description="ダイナミックパブリッシングのときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifcommentsmoderated" value="mt:IfCommentsModerated$END$ /&gt;" description="受け付けたコメントについて、即時に公開しない場合に実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifcommentsmoderated" value="mt:IfCommentsModerated$END$&gt;&lt;/mt:IfCommentsModerated&gt;" description="受け付けたコメントについて、即時に公開しない場合に実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifcommentsallowed" value="mt:IfCommentsAllowed$END$ /&gt;" description="ブログの設定でコメントを受け付ける設定をしているときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifcommentsallowed" value="mt:IfCommentsAllowed$END$&gt;&lt;/mt:IfCommentsAllowed&gt;" description="ブログの設定でコメントを受け付ける設定をしているときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifcommentsactive" value="mt:IfCommentsActive$END$ /&gt;" description="ブログと記事の設定でコメントを受け付ける状態になっている、もしくは、すでにコメントを受け付けていたときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifcommentsactive" value="mt:IfCommentsActive$END$&gt;&lt;/mt:IfCommentsActive&gt;" description="ブログと記事の設定でコメントを受け付ける状態になっている、もしくは、すでにコメントを受け付けていたときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifcommentsaccepted" value="mt:IfCommentsAccepted$END$ /&gt;" description="ブログと記事の両方の設定でコメントを受け付ける設定になっている場合に表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifcommentsaccepted" value="mt:IfCommentsAccepted$END$&gt;&lt;/mt:IfCommentsAccepted&gt;" description="ブログと記事の両方の設定でコメントを受け付ける設定になっている場合に表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifcommentertrusted" value="mt:IfCommenterTrusted$END$ /&gt;" description="コメント投稿者が Movable Type に登録済みの場合にのみ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifcommentertrusted" value="mt:IfCommenterTrusted$END$&gt;&lt;/mt:IfCommenterTrusted&gt;" description="コメント投稿者が Movable Type に登録済みの場合にのみ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifcommenterisentryauthor" value="mt:IfCommenterIsEntryAuthor$END$ /&gt;" description="コメントの投稿者が記事作成者の場合にのみに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifcommenterisentryauthor" value="mt:IfCommenterIsEntryAuthor$END$&gt;&lt;/mt:IfCommenterIsEntryAuthor&gt;" description="コメントの投稿者が記事作成者の場合にのみに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifcommenterisauthor" value="mt:IfCommenterIsAuthor$END$ /&gt;" description="コメントしたユーザーが、Movable Type に登録されているユーザーの場合にのみ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifcommenterisauthor" value="mt:IfCommenterIsAuthor$END$&gt;&lt;/mt:IfCommenterIsAuthor&gt;" description="コメントしたユーザーが、Movable Type に登録されているユーザーの場合にのみ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifcommentreplies" value="mt:IfCommentReplies$END$ /&gt;" description="コメントに返信がある場合にのみ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifcommentreplies" value="mt:IfCommentReplies$END$&gt;&lt;/mt:IfCommentReplies&gt;" description="コメントに返信がある場合にのみ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifcommentparent" value="mt:IfCommentParent$END$ /&gt;" description="コメントに親コメントがある場合にのみ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifcommentparent" value="mt:IfCommentParent$END$&gt;&lt;/mt:IfCommentParent&gt;" description="コメントに親コメントがある場合にのみ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifcategory" value="mt:IfCategory$END$ /&gt;" description="指定したカテゴリのときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifcategory" value="mt:IfCategory$END$&gt;&lt;/mt:IfCategory&gt;" description="指定したカテゴリのときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifarchivetypeenabled" value="mt:IfArchiveTypeEnabled$END$ /&gt;" description="指定したアーカイブの種類を利用しているときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifarchivetypeenabled" value="mt:IfArchiveTypeEnabled$END$&gt;&lt;/mt:IfArchiveTypeEnabled&gt;" description="指定したアーカイブの種類を利用しているときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifarchivetype" value="mt:IfArchiveType$END$ /&gt;" description="指定したアーカイブの種類でテンプレートが出力される場合にのみ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifarchivetype" value="mt:IfArchiveType archive_type=&quot;$END$&quot;&gt;&lt;/mt:IfArchiveType&gt;" description="指定したアーカイブの種類でテンプレートが出力される場合にのみ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtifallowcommenthtml" value="mt:IfAllowCommentHTML$END$ /&gt;" description="コメント投稿で一部の HTML タグの利用を許可している場合にのみ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtifallowcommenthtml" value="mt:IfAllowCommentHTML$END$&gt;&lt;/mt:IfAllowCommentHTML&gt;" description="コメント投稿で一部の HTML タグの利用を許可している場合にのみ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtif" value="mt:If$END$ /&gt;" description="条件に合致したときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtif" value="mt:If name=&quot;$END$&quot;&gt;&lt;/mt:If&gt;" description="条件に合致したときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mthassubfolders" value="mt:HasSubFolders$END$ /&gt;" description="現在のフォルダに子フォルダが存在するときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mthassubfolders" value="mt:HasSubFolders$END$&gt;&lt;/mt:HasSubFolders&gt;" description="現在のフォルダに子フォルダが存在するときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mthassubcategories" value="mt:HasSubCategories$END$ /&gt;" description="サブカテゴリがあるときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mthassubcategories" value="mt:HasSubCategories$END$&gt;&lt;/mt:HasSubCategories&gt;" description="サブカテゴリがあるときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mthasparentfolder" value="mt:HasParentFolder$END$ /&gt;" description="現在のフォルダに親フォルダが存在するときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mthasparentfolder" value="mt:HasParentFolder$END$&gt;&lt;/mt:HasParentFolder&gt;" description="現在のフォルダに親フォルダが存在するときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mthasparentcategory" value="mt:HasParentCategory$END$ /&gt;" description="親カテゴリがあるときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mthasparentcategory" value="mt:HasParentCategory$END$&gt;&lt;/mt:HasParentCategory&gt;" description="親カテゴリがあるときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mthasnosubcategories" value="mt:HasNoSubCategories$END$ /&gt;" description="子カテゴリが存在しないときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mthasnosubcategories" value="mt:HasNoSubCategories$END$&gt;&lt;/mt:HasNoSubCategories&gt;" description="子カテゴリが存在しないときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mthasnoparentcategory" value="mt:HasNoParentCategory$END$ /&gt;" description="親カテゴリが存在しないときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mthasnoparentcategory" value="mt:HasNoParentCategory$END$&gt;&lt;/mt:HasNoParentCategory&gt;" description="親カテゴリが存在しないときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2084,12 +2084,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtfolders" value="mt:Folders$END$ /&gt;" description="フォルダの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtfolders" value="mt:Folders$END$&gt;&lt;/mt:Folders&gt;" description="フォルダの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtfolderprevious" value="mt:FolderPrevious$END$ /&gt;" description="現在のフォルダの前のフォルダの内容を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtfolderprevious" value="mt:FolderPrevious$END$&gt;&lt;/mt:FolderPrevious&gt;" description="現在のフォルダの前のフォルダの内容を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2099,7 +2099,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtfoldernext" value="mt:FolderNext$END$ /&gt;" description="現在のフォルダの次のフォルダの内容を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtfoldernext" value="mt:FolderNext$END$&gt;&lt;/mt:FolderNext&gt;" description="現在のフォルダの次のフォルダの内容を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2114,12 +2114,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtfolderheader" value="mt:FolderHeader$END$ /&gt;" description="MTFolders タグの中で、最初に一度だけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtfolderheader" value="mt:FolderHeader$END$&gt;&lt;/mt:FolderHeader&gt;" description="MTFolders タグの中で、最初に一度だけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtfolderfooter" value="mt:FolderFooter$END$ /&gt;" description="MTFolders タグの中で最後に一度だけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtfolderfooter" value="mt:FolderFooter$END$&gt;&lt;/mt:FolderFooter&gt;" description="MTFolders タグの中で最後に一度だけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2174,12 +2174,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtfeedentries" value="mt:FeedEntries$END$ /&gt;" description="MTFeed タグで指定したフィードの内容を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtfeedentries" value="mt:FeedEntries$END$&gt;&lt;/mt:FeedEntries&gt;" description="MTFeed タグで指定したフィードの内容を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtfeed" value="mt:Feed$END$ /&gt;" description="表示するフィードを指定する" toReformat="false" toShortenFQNames="true">
+  <template name="mtfeed" value="mt:Feed$END$&gt;&lt;/mt:Feed&gt;" description="表示するフィードを指定する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2214,7 +2214,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentrytags" value="mt:EntryTags$END$ /&gt;" description="記事に設定されたタグの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentrytags" value="mt:EntryTags$END$&gt;&lt;/mt:EntryTags&gt;" description="記事に設定されたタグの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2254,7 +2254,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentryprevious" value="mt:EntryPrevious$END$ /&gt;" description="前の記事を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentryprevious" value="mt:EntryPrevious$END$&gt;&lt;/mt:EntryPrevious&gt;" description="前の記事を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2264,7 +2264,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentrynext" value="mt:EntryNext$END$ /&gt;" description="次の記事を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentrynext" value="mt:EntryNext$END$&gt;&lt;/mt:EntryNext&gt;" description="次の記事を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2289,32 +2289,32 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentryiftagged" value="mt:EntryIfTagged$END$ /&gt;" description="記事にタグがあるときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentryiftagged" value="mt:EntryIfTagged$END$&gt;&lt;/mt:EntryIfTagged&gt;" description="記事にタグがあるときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentryifextended" value="mt:EntryIfExtended$END$ /&gt;" description="記事に続きがあるときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentryifextended" value="mt:EntryIfExtended$END$&gt;&lt;/mt:EntryIfExtended&gt;" description="記事に続きがあるときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentryifcommentsopen" value="mt:EntryIfCommentsOpen$END$ /&gt;" description="ブログと記事の設定でコメントを受け付ける状態になっている、もしくは、すでにコメントを受け付けていたときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentryifcommentsopen" value="mt:EntryIfCommentsOpen$END$&gt;&lt;/mt:EntryIfCommentsOpen&gt;" description="ブログと記事の設定でコメントを受け付ける状態になっている、もしくは、すでにコメントを受け付けていたときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentryifcategory" value="mt:EntryIfCategory$END$ /&gt;" description="記事が指定したカテゴリに属しているときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentryifcategory" value="mt:EntryIfCategory$END$&gt;&lt;/mt:EntryIfCategory&gt;" description="記事が指定したカテゴリに属しているときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentryifallowpings" value="mt:EntryIfAllowPings$END$ /&gt;" description="トラックバックが許可されているときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentryifallowpings" value="mt:EntryIfAllowPings$END$&gt;&lt;/mt:EntryIfAllowPings&gt;" description="トラックバックが許可されているときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentryifallowcomments" value="mt:EntryIfAllowComments$END$ /&gt;" description="システム全体とブログの両方の設定でコメントが許可されているときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentryifallowcomments" value="mt:EntryIfAllowComments$END$&gt;&lt;/mt:EntryIfAllowComments&gt;" description="システム全体とブログの両方の設定でコメントが許可されているときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2359,7 +2359,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentrycategories" value="mt:EntryCategories$END$ /&gt;" description="記事が属するカテゴリの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentrycategories" value="mt:EntryCategories$END$&gt;&lt;/mt:EntryCategories&gt;" description="記事が属するカテゴリの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2439,27 +2439,27 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentryassets" value="mt:EntryAssets$END$ /&gt;" description="記事のアイテム一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentryassets" value="mt:EntryAssets$END$&gt;&lt;/mt:EntryAssets&gt;" description="記事のアイテム一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentryadditionalcategories" value="mt:EntryAdditionalCategories$END$ /&gt;" description="メインカテゴリを除くカテゴリ一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentryadditionalcategories" value="mt:EntryAdditionalCategories$END$&gt;&lt;/mt:EntryAdditionalCategories&gt;" description="メインカテゴリを除くカテゴリ一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentrieswithsubcategories" value="mt:EntriesWithSubCategories$END$ /&gt;" description="子カテゴリも含めて記事一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentrieswithsubcategories" value="mt:EntriesWithSubCategories$END$&gt;&lt;/mt:EntriesWithSubCategories&gt;" description="子カテゴリも含めて記事一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentriesheader" value="mt:EntriesHeader$END$ /&gt;" description="最初の記事のときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentriesheader" value="mt:EntriesHeader$END$&gt;&lt;/mt:EntriesHeader&gt;" description="最初の記事のときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentriesfooter" value="mt:EntriesFooter$END$ /&gt;" description="最後の記事のときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentriesfooter" value="mt:EntriesFooter$END$&gt;&lt;/mt:EntriesFooter&gt;" description="最後の記事のときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2469,12 +2469,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtentries" value="mt:Entries$END$ /&gt;" description="記事一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtentries" value="mt:Entries$END$&gt;&lt;/mt:Entries&gt;" description="記事一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtelse" value="mt:Else$END$ /&gt;" description="条件に合致しなかったときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtelse" value="mt:Else$END$&gt;&lt;/mt:Else&gt;" description="条件に合致しなかったときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2484,12 +2484,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtdateheader" value="mt:DateHeader$END$ /&gt;" description="記事一覧の中で、記事の日付が変わったときにのみ、最初に実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtdateheader" value="mt:DateHeader$END$&gt;&lt;/mt:DateHeader&gt;" description="記事一覧の中で、記事の日付が変わったときにのみ、最初に実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtdatefooter" value="mt:DateFooter$END$ /&gt;" description="記事一覧の中で、記事の日付が変わったときにのみ、最後に実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtdatefooter" value="mt:DateFooter$END$&gt;&lt;/mt:DateFooter&gt;" description="記事一覧の中で、記事の日付が変わったときにのみ、最後に実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2504,12 +2504,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcommentsheader" value="mt:CommentsHeader$END$ /&gt;" description="コメントの一覧で最初のときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcommentsheader" value="mt:CommentsHeader$END$&gt;&lt;/mt:CommentsHeader&gt;" description="コメントの一覧で最初のときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcommentsfooter" value="mt:CommentsFooter$END$ /&gt;" description="コメントの一覧で最後のときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcommentsfooter" value="mt:CommentsFooter$END$&gt;&lt;/mt:CommentsFooter&gt;" description="コメントの一覧で最後のときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2524,7 +2524,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcommenteriftrusted" value="mt:CommenterIfTrusted$END$ /&gt;" description="コメント投稿者が登録済みの場合にのみ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcommenteriftrusted" value="mt:CommenterIfTrusted$END$&gt;&lt;/mt:CommenterIfTrusted&gt;" description="コメント投稿者が登録済みの場合にのみ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2584,7 +2584,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcommentreplies" value="mt:CommentReplies$END$ /&gt;" description="コメントが親コメントである場合、子（返信）コメントの情報を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcommentreplies" value="mt:CommentReplies$END$&gt;&lt;/mt:CommentReplies&gt;" description="コメントが親コメントである場合、子（返信）コメントの情報を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2634,7 +2634,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcommentparent" value="mt:CommentParent$END$ /&gt;" description="親となるコメントの情報を出力する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcommentparent" value="mt:CommentParent$END$&gt;&lt;/mt:CommentParent&gt;" description="親となるコメントの情報を出力する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2649,7 +2649,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcommentifmoderated" value="mt:CommentIfModerated$END$ /&gt;" description="対象のコメントが「保留中」の場合に実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcommentifmoderated" value="mt:CommentIfModerated$END$&gt;&lt;/mt:CommentIfModerated&gt;" description="対象のコメントが「保留中」の場合に実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2669,7 +2669,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcommententry" value="mt:CommentEntry$END$ /&gt;" description="コメント元の記事の内容を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcommententry" value="mt:CommentEntry$END$&gt;&lt;/mt:CommentEntry&gt;" description="コメント元の記事の内容を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2719,12 +2719,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcategoryprevious" value="mt:CategoryPrevious$END$ /&gt;" description="前のカテゴリを表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcategoryprevious" value="mt:CategoryPrevious$END$&gt;&lt;/mt:CategoryPrevious&gt;" description="前のカテゴリを表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcategorynext" value="mt:CategoryNext$END$ /&gt;" description="次のカテゴリを表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcategorynext" value="mt:CategoryNext$END$&gt;&lt;/mt:CategoryNext&gt;" description="次のカテゴリを表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2734,7 +2734,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcategoryifallowpings" value="mt:CategoryIfAllowPings$END$ /&gt;" description="カテゴリへのトラックバックが有効なときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcategoryifallowpings" value="mt:CategoryIfAllowPings$END$&gt;&lt;/mt:CategoryIfAllowPings&gt;" description="カテゴリへのトラックバックが有効なときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2764,7 +2764,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcategories" value="mt:Categories$END$ /&gt;" description="カテゴリ一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcategories" value="mt:Categories$END$&gt;&lt;/mt:Categories&gt;" description="カテゴリ一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2774,32 +2774,32 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcalendarweekheader" value="mt:CalendarWeekHeader$END$ /&gt;" description="週の始まりのときだけ表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcalendarweekheader" value="mt:CalendarWeekHeader$END$&gt;&lt;/mt:CalendarWeekHeader&gt;" description="週の始まりのときだけ表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcalendarweekfooter" value="mt:CalendarWeekFooter$END$ /&gt;" description="週の最後のときだけ表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcalendarweekfooter" value="mt:CalendarWeekFooter$END$&gt;&lt;/mt:CalendarWeekFooter&gt;" description="週の最後のときだけ表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcalendariftoday" value="mt:CalendarIfToday$END$ /&gt;" description="カレンダー内の日付が「今日」のときだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcalendariftoday" value="mt:CalendarIfToday$END$&gt;&lt;/mt:CalendarIfToday&gt;" description="カレンダー内の日付が「今日」のときだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcalendarifnoentries" value="mt:CalendarIfNoEntries$END$ /&gt;" description="記事が登録されていない日でのみ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcalendarifnoentries" value="mt:CalendarIfNoEntries$END$&gt;&lt;/mt:CalendarIfNoEntries&gt;" description="記事が登録されていない日でのみ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcalendarifentries" value="mt:CalendarIfEntries$END$ /&gt;" description="記事が登録されている日でのみ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcalendarifentries" value="mt:CalendarIfEntries$END$&gt;&lt;/mt:CalendarIfEntries&gt;" description="記事が登録されている日でのみ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcalendarifblank" value="mt:CalendarIfBlank$END$ /&gt;" description="カレンダーのセルが空白のときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcalendarifblank" value="mt:CalendarIfBlank$END$&gt;&lt;/mt:CalendarIfBlank&gt;" description="カレンダーのセルが空白のときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2819,7 +2819,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtcalendar" value="mt:Calendar$END$ /&gt;" description="カレンダーを表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtcalendar" value="mt:Calendar$END$&gt;&lt;/mt:Calendar&gt;" description="カレンダーを表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2854,7 +2854,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtblogs" value="mt:Blogs$END$ /&gt;" description="ブログ一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtblogs" value="mt:Blogs$END$&gt;&lt;/mt:Blogs&gt;" description="ブログ一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2874,12 +2874,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtblogresultheader" value="mt:BlogResultHeader$END$ /&gt;" description="検索結果で表示される記事の所属するブログが切り替わるごとにヘッダーとして表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtblogresultheader" value="mt:BlogResultHeader$END$&gt;&lt;/mt:BlogResultHeader&gt;" description="検索結果で表示される記事の所属するブログが切り替わるごとにヘッダーとして表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtblogresultfooter" value="mt:BlogResultFooter$END$ /&gt;" description="検索結果で表示される記事の所属するブログが切り替わるごとにフッターとして表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtblogresultfooter" value="mt:BlogResultFooter$END$&gt;&lt;/mt:BlogResultFooter&gt;" description="検索結果で表示される記事の所属するブログが切り替わるごとにフッターとして表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2909,12 +2909,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtblogifcommentsopen" value="mt:BlogIfCommentsOpen$END$ /&gt;" description="ブログで匿名ユーザーからのコメントを許可しているときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtblogifcommentsopen" value="mt:BlogIfCommentsOpen$END$&gt;&lt;/mt:BlogIfCommentsOpen&gt;" description="ブログで匿名ユーザーからのコメントを許可しているときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtblogifcclicense" value="mt:BlogIfCCLicense$END$ /&gt;" description="ブログのクリエイティブコモンズの設定時に、囲まれた部分を実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtblogifcclicense" value="mt:BlogIfCCLicense$END$&gt;&lt;/mt:BlogIfCCLicense&gt;" description="ブログのクリエイティブコモンズの設定時に、囲まれた部分を実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -2964,7 +2964,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtauthors" value="mt:Authors$END$ /&gt;" description="ブログに登録されているユーザーを一覧で表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtauthors" value="mt:Authors$END$&gt;&lt;/mt:Authors&gt;" description="ブログに登録されているユーザーを一覧で表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -3004,12 +3004,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtauthorprevious" value="mt:AuthorPrevious$END$ /&gt;" description="現在のユーザーアーカイブのひとつ前のユーザーアーカイブを表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtauthorprevious" value="mt:AuthorPrevious$END$&gt;&lt;/mt:AuthorPrevious&gt;" description="現在のユーザーアーカイブのひとつ前のユーザーアーカイブを表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtauthornext" value="mt:AuthorNext$END$ /&gt;" description="現在のユーザーアーカイブの次のユーザーアーカイブを表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtauthornext" value="mt:AuthorNext$END$&gt;&lt;/mt:AuthorNext&gt;" description="現在のユーザーアーカイブの次のユーザーアーカイブを表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -3049,17 +3049,17 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtassetsheader" value="mt:AssetsHeader$END$ /&gt;" description="MTAssets タグの中で最初にだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtassetsheader" value="mt:AssetsHeader$END$&gt;&lt;/mt:AssetsHeader&gt;" description="MTAssets タグの中で最初にだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtassetsfooter" value="mt:AssetsFooter$END$ /&gt;" description="MTAssets タグの中で最後にだけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtassetsfooter" value="mt:AssetsFooter$END$&gt;&lt;/mt:AssetsFooter&gt;" description="MTAssets タグの中で最後にだけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtassets" value="mt:Assets$END$ /&gt;" description="ブログのアイテムを一覧で表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtassets" value="mt:Assets$END$&gt;&lt;/mt:Assets&gt;" description="ブログのアイテムを一覧で表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -3074,7 +3074,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtassettags" value="mt:AssetTags$END$ /&gt;" description="特定のアイテムに設定されたタグを一覧で表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtassettags" value="mt:AssetTags$END$&gt;&lt;/mt:AssetTags&gt;" description="特定のアイテムに設定されたタグを一覧で表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -3129,17 +3129,17 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtassetislastinrow" value="mt:AssetIsLastInRow$END$ /&gt;" description="MTAssets タグの assets_per_row の指定数ごとに、コンテナした内容を末尾に表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtassetislastinrow" value="mt:AssetIsLastInRow$END$&gt;&lt;/mt:AssetIsLastInRow&gt;" description="MTAssets タグの assets_per_row の指定数ごとに、コンテナした内容を末尾に表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtassetisfirstinrow" value="mt:AssetIsFirstInRow$END$ /&gt;" description="MTAssets タグの assets_per_row の指定数ごとに、コンテナした内容を行頭に表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtassetisfirstinrow" value="mt:AssetIsFirstInRow$END$&gt;&lt;/mt:AssetIsFirstInRow&gt;" description="MTAssets タグの assets_per_row の指定数ごとに、コンテナした内容を行頭に表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtassetiftagged" value="mt:AssetIfTagged$END$ /&gt;" description="特定のタグがアイテムに付けられているときに実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtassetiftagged" value="mt:AssetIfTagged$END$&gt;&lt;/mt:AssetIfTagged&gt;" description="特定のタグがアイテムに付けられているときに実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -3179,12 +3179,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtasset" value="mt:Asset$END$ /&gt;" description="単一のアイテムを指定して表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtasset" value="mt:Asset$END$&gt;&lt;/mt:Asset&gt;" description="単一のアイテムを指定して表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtarchives" value="mt:Archives$END$ /&gt;" description="アーカイブを表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtarchives" value="mt:Archives$END$&gt;&lt;/mt:Archives&gt;" description="アーカイブを表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -3199,27 +3199,27 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtarchiveprevious" value="mt:ArchivePrevious$END$ /&gt;" description="前のアーカイブを表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtarchiveprevious" value="mt:ArchivePrevious$END$&gt;&lt;/mt:ArchivePrevious&gt;" description="前のアーカイブを表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtarchivenext" value="mt:ArchiveNext$END$ /&gt;" description="次のアーカイブを表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtarchivenext" value="mt:ArchiveNext$END$&gt;&lt;/mt:ArchiveNext&gt;" description="次のアーカイブを表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtarchivelistheader" value="mt:ArchiveListHeader$END$ /&gt;" description="MTArchiveList タグの中で最初に一度だけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtarchivelistheader" value="mt:ArchiveListHeader$END$&gt;&lt;/mt:ArchiveListHeader&gt;" description="MTArchiveList タグの中で最初に一度だけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtarchivelistfooter" value="mt:ArchiveListFooter$END$ /&gt;" description="MTArchiveList タグの中で最後に一度だけ実行する" toReformat="false" toShortenFQNames="true">
+  <template name="mtarchivelistfooter" value="mt:ArchiveListFooter$END$&gt;&lt;/mt:ArchiveListFooter&gt;" description="MTArchiveList タグの中で最後に一度だけ実行する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtarchivelist" value="mt:ArchiveList$END$ /&gt;" description="アーカイブの一覧を表示する" toReformat="false" toShortenFQNames="true">
+  <template name="mtarchivelist" value="mt:ArchiveList archive_type=&quot;$END$&quot;&gt;&lt;/mt:ArchiveList&gt;" description="アーカイブの一覧を表示する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -3259,22 +3259,22 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtapp:widget" value="mt:App:Widget$END$ /&gt;" description="管理画面の表示で利用する" toReformat="false" toShortenFQNames="true">
+  <template name="mtapp:widget" value="mt:App:Widget$END$&gt;&lt;/mt:App:Widget&gt;" description="管理画面の表示で利用する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtapp:statusmsg" value="mt:App:StatusMsg$END$ /&gt;" description="管理画面の表示で利用する" toReformat="false" toShortenFQNames="true">
+  <template name="mtapp:statusmsg" value="mt:App:StatusMsg$END$&gt;&lt;/mt:App:StatusMsg&gt;" description="管理画面の表示で利用する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtapp:settinggroup" value="mt:App:SettingGroup$END$ /&gt;" description="管理画面の表示で利用する" toReformat="false" toShortenFQNames="true">
+  <template name="mtapp:settinggroup" value="mt:App:SettingGroup$END$&gt;&lt;/mt:App:SettingGroup&gt;" description="管理画面の表示で利用する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtapp:setting" value="mt:App:Setting$END$ /&gt;" description="管理画面の表示で利用する" toReformat="false" toShortenFQNames="true">
+  <template name="mtapp:setting" value="mt:App:Setting$END$&gt;&lt;/mt:App:Setting&gt;" description="管理画面の表示で利用する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -3284,7 +3284,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtapp:listing" value="mt:App:Listing$END$ /&gt;" description="管理画面の表示で利用する" toReformat="false" toShortenFQNames="true">
+  <template name="mtapp:listing" value="mt:App:Listing$END$&gt;&lt;/mt:App:Listing&gt;" description="管理画面の表示で利用する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -3299,7 +3299,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtapp:form" value="mt:App:Form$END$ /&gt;" description="管理画面の表示で利用する" toReformat="false" toShortenFQNames="true">
+  <template name="mtapp:form" value="mt:App:Form$END$&gt;&lt;/mt:App:Form&gt;" description="管理画面の表示で利用する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
