@@ -16,6 +16,12 @@ MTML.xml 下記のディレクトリに保存してください。 `IntelliJIdea
 /Users/ユーザー名/Library/Preferences/IntelliJIdea2018.3/settingsRepository/repository/templates/MTML.xml
 ```
 
+もし、 `File > IDE Settings Sync` で JetBrains アカウントを利用して環境設定を同期している場合は、保存先のパスは下記となります。
+
+```
+/Users/ユーザー名/Library/Preferences/IntelliJIdea2018.3/jba_config/templates/MTML.xml
+```
+
 あらかじめ IntelliJ IDEA を終了しておき、インストール後に起動するとスムーズに反映されるようです。
 
 ## 使い方
