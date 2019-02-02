@@ -26,4 +26,4 @@ MTML.xml 下記のディレクトリに保存してください。 `IntelliJIdea
 
 環境変数は `mtconfig` と入力すると候補が現れますが、条件によっては現れないので、その場合は `Command + J` で手動で呼び出します。なお、候補には `mtdonfig-AdminCGIPath` と表示されますが、ハイフンは入力しなくても問題ありませんし、エンターを押して入力される値には `mt-donfig-` は付きません。
 
-テンプレートを見やすくするための見出し的なコメントは、 `head1mtml` `head2mtml` `head3mtml` で呼出せます。
+テンプレートを見やすくするための見出し的なコメントは、 `mtmlhead1` `mtmlhead2` `mtmlhead3` で呼出せます。
