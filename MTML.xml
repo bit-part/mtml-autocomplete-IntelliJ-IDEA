@@ -3309,6 +3309,16 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="mtforeach" value="mt:Foreach name=&quot;$END$&quot; as=&quot;&quot;&gt;&lt;/mt:Foreach&gt;" description="ハッシュをループ処理する" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="mtnestvar" value="mt:NestVar name=&quot;$END$&quot; /&gt;" description="ドットシンタックスで指定したハッシュキーの値を出力する" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
   <template name="mtadminscript" value="mt:AdminScript$END$ /&gt;" description="環境変数 AdminScript で設定した値を出力する" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
