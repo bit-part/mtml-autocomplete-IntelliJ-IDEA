@@ -44,7 +44,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mtsiteparentsite" value="mt:SiteParentSite$END$ /&gt;" description="子サイトのコンテクストにおいて、親サイトを取得するブロックタグです。 MTBlo..." toReformat="false" toShortenFQNames="true">
+  <template name="mtsiteparentsite" value="mt:SiteParentSite&gt;$END$&lt;/mt:SiteParentSite&gt;" description="子サイトのコンテクストにおいて、親サイトを取得するブロックタグです。 MTBlo..." toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
